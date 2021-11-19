@@ -39,9 +39,9 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "MainPage",
+      name: "MainApp",
       remotes: {
-        house: "house@https://smirnovdmitrii.github.io/house-three-js/remoteEntry.js",
+        house: "house@https://smirnovdmitrii.github.io/haunted-house/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),
