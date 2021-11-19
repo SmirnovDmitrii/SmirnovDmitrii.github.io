@@ -1,7 +1,7 @@
 /// <reference types="react" />
 
-declare module "house/Button" {
-  const Button: React.ComponentType;
+declare module "house/App" {
+  const App: React.ComponentType;
 
-  export default Button;
+  export default App;
 }
