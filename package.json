@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-cli serve",
     "build": "webpack --mode production",
-    "serve": "serve dist -p 3001"
+    "serve": "serve dist -p 3001",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
