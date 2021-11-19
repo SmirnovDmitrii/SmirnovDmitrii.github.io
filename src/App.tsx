@@ -2,7 +2,7 @@ import * as React from "react";
 import { ErrorBoundary } from "./ErrorBoundary";
 
 // @ts-ignore
-const RemoteButton = React.lazy(() => import("local_name/Button"));
+const RemoteButton = React.lazy(() => import("house/Button"));
 
 const App = () => (
   <div>

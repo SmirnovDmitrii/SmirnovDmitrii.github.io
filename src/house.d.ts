@@ -1,6 +1,6 @@
 /// <reference types="react" />
 
-declare module "local_name/Button" {
+declare module "house/Button" {
   const Button: React.ComponentType;
 
   export default Button;

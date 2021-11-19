@@ -41,7 +41,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "MainPage",
       remotes: {
-        local_name: "remote_name@https://smirnovdmitrii.github.io/repository/remoteEntry.js",
+        house: "house@https://smirnovdmitrii.github.io/house-three-js/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),
