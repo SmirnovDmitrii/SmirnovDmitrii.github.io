@@ -5,14 +5,14 @@ import { ErrorBoundary } from "./ErrorBoundary";
 const House = React.lazy(() => import("house/App"));
 
 const App = () => (
-  <div>
+  <>
     <h2>application</h2>
     <ErrorBoundary>
-      <React.Suspense fallback="Loading Button">
+      <React.Suspense fallback="Loading House application">
         <House />
       </React.Suspense>
     </ErrorBoundary>
-  </div>
+  </>
 );
 
 export default App;
